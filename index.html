@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Joga da Velha</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Jogo da Velha</h1>
+            <h2>Pedra, Papel e Tesoura</h2>
+        </div>
+    </header>
+
+    <main id="corpo">
+
+        <div id="jogo" >
+
+            <div id="jogador">
+
+                <h1>JOGADOR</h1>
+                <div id="res">
+                    <div id="resPlayer"></div>
+                </div>
+                <div id="comandos">
+                    
+                    <div id="pedra"><img class="tagIMG" src="img/pedra.jpg"></div>
+                    <div id="papel"><img class="tagIMG" src="img/papel.jpg"></div>
+                    <div id="tesoura"><img class="tagIMG" src="img/tesoura.jpg"></div>   
+                               
+                    
+
+                </div>
+
+                <div id="placar">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Vitórias</td>
+                                <td>Derrotas</td>
+                                <td>Empates</td>
+                                <td>Pontos</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tabelaPlacar">                            
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+           
+
+            <div id="bot">
+                <h1>BOT</h1>
+                <div id="resBot"></div>                
+
+            </div>       
+        </div>
+
+    </main>       
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
